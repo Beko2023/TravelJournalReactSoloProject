@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    justify-content: center;
+    text-align: center;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.earth--logo {
+    padding: 0.2em;
+}
+
+.header > h1 {
+    margin: 0;
+}
+
+.hero {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: solid 1px #F5F5F5;
+    margin-top: 1.7em;
+}
+
+.hero--image {
+    width: 165px;
+    height: 180px;
+    margin-right: 1em;
+    margin-bottom: 1.7em;
+    border-radius: 5px;
+}
+
+.location--stats {
+    margin: 1em 0.5em;
+}
+
+.location--text {
+    display:flex;
+    gap: 1em;
+    margin-bottom: 0.2em;
+}
+
+.country--name {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.location--text > h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.country--loco {
+    color: #918E9B;
+}
+
+.location--title {
+    margin: 0;
+    padding-bottom: 0.4em;
+    color: #2B283A;
+}
+
+.dates--section {
+    margin-bottom: 0.3em;
+}
+
+.dates {
+    font-weight: 700;
+    font-size:0.8em;
+    color: #2B283A
+}
+
+.country--description {
+    font-size: 0.8em;
+    color: #2B283A;
+}
+
+
